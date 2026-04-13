@@ -1,0 +1,36 @@
+Build
+
+# === Xcode ===
+VibingV.xcodeproj/xcuserdata/
+VibingV.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+DerivedData/
+Build/
+
+# === VibingV 开发和资源文件 ===
+VibingV/debug/
+VibingV/useless/
+VibingV/素材截图/
+VibingV/授权弹窗/
+VibingV/音频素材/
+Assets.xcassets/Untitled.imagestack/
+
+# === 证书和敏感文件 ===
+*.cer
+*.p12
+*.mobileprovision
+
+# === 测试文件（可选）===
+VibingVTests/
+VibingVUITests/
+
+# === Nuxt.js (已存在但补充) ===
+.node_binary
+
+.kilocode
+.kilo
+nuxt-app
